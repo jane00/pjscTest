@@ -7,8 +7,14 @@
 
     <style>
         body {
-          color: #000000;
-          background-color: #ffffff;
+          color: #FFF;
+          background-color: #111111;
+            transform:rotate(90deg);
+        -ms-transform:rotate(90deg); /* Internet Explorer 9*/
+        -moz-transform:rotate(90deg); /* Firefox */
+        -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+        -o-transform:rotate(90deg); /* Opera */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
         }
 
         .page {
@@ -75,7 +81,7 @@
       }
 
       update()
-      setInterval("update()", 60 * 1000)
+      setInterval("update()", 30 * 1000)
     </script>
 </body>
 </html>
